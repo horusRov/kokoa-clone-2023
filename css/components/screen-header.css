@@ -14,4 +14,18 @@
 
 .screen-header__icons span {
     margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__icons--gear {
+        background-color: blue;
+        width:5px;
+        height:5px;
+        border-radius: 2.5px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 72px;
+        bottom: 22px;
 }
