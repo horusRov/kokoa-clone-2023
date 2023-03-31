@@ -53,3 +53,15 @@
     margin-bottom: 10px;
     display:block;
 }
+
+.user-component__text {
+    position: relative;
+}
+
+.user-component__text i {
+    position:absolute;
+    right:-20px;
+    bottom: 1px;
+    font-size: 15px;
+    color:#fe5e4e;
+}
