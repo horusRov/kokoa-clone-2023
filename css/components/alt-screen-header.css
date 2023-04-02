@@ -1,20 +1,37 @@
 .alt-header {
-    padding:var(--horizontal-space);
+    padding: var(--horizontal-space);
     margin-bottom: 15px;
     display:flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+}
+
+.alt-header__column {
+    width: 33%;
 }
 
 .alt-header__title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;   
 }
+
 
 .alt-header__culumn:first-child {
     margin-right: auto;
 }
 
+.alt-header__culumn:nth-child(2) {
+    margin-inline: 20px;
+}
+
 .alt-header__culumn:last-child {
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
+
+
+.alt-header__culumn span:last-child {
+    margin-left: 20px;
+}
+
